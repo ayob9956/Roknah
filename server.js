@@ -29,7 +29,7 @@ fastify.post("/create-payment-intent", async () => {
 // Run the server
 const start = async () => {
   try {
-    await fastify.listen({ port: 5252 });
+    await fastify.listen({ port: 5253 });
     console.log("Server listening on port 5252");
   } catch (err) {
     fastify.log.error(err);
